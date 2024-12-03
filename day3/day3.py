@@ -20,13 +20,10 @@ s = 0
 is_on = True
 
 for match in matches:
-    print(match, is_on)
     if match == "don't()":
-        print("off")
         is_on = False
         continue
     if match == "do()":
-        print("on")
         is_on = True
         continue
 
